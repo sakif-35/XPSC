@@ -1,0 +1,1 @@
+{"name":"Local: 76","url":"d:\\Code\\Phitron\\XPSC\\Spped_contest_1\\76.cpp","tests":[{"id":1781020583168,"input":"3\n2\n1 -1\n3\n1 -3 2\n4\n5 5 5 5\n","output":"Yes\nNo\nYes\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Code\\Phitron\\XPSC\\Spped_contest_1\\76.cpp","group":"local","local":true}

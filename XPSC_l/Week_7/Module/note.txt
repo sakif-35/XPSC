@@ -1,0 +1,7 @@
+In X-OR the answer depends on 1
+    1. Odd numbers of 1 -> 1
+    2. Even numbers of 1 -> 0
+
+MIN INT = - (2^31)
+MAX INT = (2^31)-1
+         (1LL << 31) - 1

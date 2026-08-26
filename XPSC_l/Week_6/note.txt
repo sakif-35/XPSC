@@ -1,0 +1,2 @@
+1. If there is n element in a array then there is n(n+1)/2 continuous sub arrays
+2. you can use the previous formula or you can just add (r-l)+1 in each loop

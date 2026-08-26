@@ -1,0 +1,1 @@
+{"name":"Local: set_&_multiset","url":"d:\\Code\\Phitron\\XPSC\\Week_3\\module\\set_&_multiset.cpp","tests":[{"id":1773662636302,"input":"6\n3 5 1 6 3 6","output":"1 3 5 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Code\\Phitron\\XPSC\\Week_3\\module\\set_&_multiset.cpp","group":"local","local":true}

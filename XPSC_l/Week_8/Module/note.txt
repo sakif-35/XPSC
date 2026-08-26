@@ -1,0 +1,2 @@
+*For any signed 64-bit integer the highest total number of divisors is 161,280.
+*For any signed 32-bit integer the highest total number of divisors is 1,536.
