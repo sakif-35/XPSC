@@ -5,22 +5,25 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void divisor(int val, vector<int> &divisors){
+    int limit = sqrt(val);
+    for(int i=1; i<=limit; i++){
+        if(val%i==0){
+            divisors.push_back(i);
+            if(i!=(val/i)){
+                divisors.push_back(val/i);
+            }
+        }
+    }
+}
+
 int main() {
 
     int n;
     cin >> n;
     vector<int> divisors;
-    int limit = sqrt(n);
-    for(int i=1; i<=limit; i++){
-        if(n%i==0){
-            divisors.push_back(i);
-            if(i!=(n/i)){
-                divisors.push_back(n/i);
-            }
-        }
-    }
+    divisor(n,divisors);
     sort(divisors.begin(),divisors.end());
-    
     for(auto x : divisors) cout << x << " ";
 
 
