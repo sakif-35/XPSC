@@ -11,12 +11,36 @@ int main() {
         int n;
         cin >> n;
         vector<long long> vec(n);
-        for(int i=0; i<n; i++) cin >> vec[i];
-        vector<long long> even_pos, odd_pos;
-        for(int i=0; i<n; i++){
-            if(i%2==0) even_pos.push_back(vec[i]);
-            else odd_pos.push_back(vec[i]);
+        for(int i=0; i<n; i++) 
+            cin >> vec[i];
+        
+        bool flag = true;
+        long long d = vec[0];
+        for(int i=0; i<n; i+=2){
+            d = gcd(d,vec[i]);
         }
+        for(int i=1; i<n; i+=2){
+            if(vec[i]%d==0){
+                flag = false;
+                break;
+            }
+        }
+
+        if(!flag){
+            flag = true;
+            d = vec[1];
+            for(int i=1; i<n; i+=2){
+                d = gcd(d,vec[i]);
+            }
+            for(int i=0; i<n; i+=2){
+                if(vec[i]%d==0){
+                    flag = false;
+                    break;
+                }
+            }    
+        }
+
+        cout << (flag ? d : 0 ) << endl;
         
     }
 

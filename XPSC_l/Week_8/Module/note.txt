@@ -1,2 +1,17 @@
 *For any signed 64-bit integer the highest total number of divisors is 161,280.
 *For any signed 32-bit integer the highest total number of divisors is 1,536.
+
+
+
+#Goldbach's Conjecture(Though its not proved yet but the theory just works) : 
+    "Every even natural number greater than 2 is the sum of two prime numbers"
+
+#Ternary Goldbach Conjecture :
+    "Every odd number greater than 5 can be expressed as the sum of three prime numbers"    
+    Be careful it doesnot say "at least sum of 3 primes"
+    for example: 21 = 2+19, 21 = 3+5+13
+    So, we can also express some odd as sum of two primes(only those where n-2 is a prime cause if a odd number is sum of two primes then one prime must be 2 since even prime + odd prime = odd number & odd prime + odd prime = even number(it's no longer odd))
+
+
+# Modular Arithmetic : Addition, Substraction    
+    
