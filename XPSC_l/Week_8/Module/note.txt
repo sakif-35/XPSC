@@ -13,5 +13,9 @@
     So, we can also express some odd as sum of two primes(only those where n-2 is a prime cause if a odd number is sum of two primes then one prime must be 2 since even prime + odd prime = odd number & odd prime + odd prime = even number(it's no longer odd))
 
 
-# Modular Arithmetic : Addition, Substraction    
+# Modular Arithmetic : Addition, Substraction, Multiplication, Division(DP,combinatorics)
+    (a + b) % m = (a%m + b%m) % m
+    (a - b) % m = (a%m - b%m) % m        (m = 1e9+7 ) 
+    (a * b) % m = (a%m * b%m) % m 
+
     
