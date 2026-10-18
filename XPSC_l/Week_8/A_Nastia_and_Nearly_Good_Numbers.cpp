@@ -8,13 +8,13 @@ int main() {
     cin >> t;
     while(t--){
 
-        int a,b;
+        long long a,b;
         cin >> a >> b;
-        long long  z = a*b, y = z-a, x = z-y;
-        if(a==z){
+        if(b==1){
             cout << "NO\n";
             continue;
         }
+        long long  z = (a*b)*2, y = z-a, x = z-y;
         cout << "YES\n" << x << " " << y << " " << z << "\n"; 
 
     }
